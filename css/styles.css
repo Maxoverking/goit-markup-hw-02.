@@ -1,0 +1,15 @@
+body{
+    background-color: aqua;
+    margin: auto;
+}
+.headerup{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.cross{
+    display: inline-flex;
+    justify-content:center;
+}
+.information{
+    display: inline-flex;
+}
