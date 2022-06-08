@@ -1,18 +1,34 @@
 body{
     background-color: #FFFFFF;
-    margin: auto;
+    color: #757575;
 
+}
+/* цвет h1 FFFFFF */
+/* цвет чепный h2 h3 212121 */
+/* цвет р 757575 */
+/* цвет синий 2196F3 */
+.black{
+    color: #212121;
+}
+
+.logo{
+    color:#2196F3;
+    
+}
+.logo>.black:hover{
+    color: #2196F3;
+}
+ul{
+    list-style: none;
 }
 .basic {
     background-color: #FFFFFF;
     
 }
-.basic-link{
- 
-    
-
+.basic-linc .linc{
+    color: #212121;
 }
-.basic-head-link{  
-   
-
+.basic-linc .linc:hover, 
+.basic-linc.linc:focus{
+     color: #2196F3;
 }
