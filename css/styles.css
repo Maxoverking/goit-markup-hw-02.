@@ -1,34 +1,155 @@
-body{
-    background-color: #FFFFFF;
-    color: #757575;
-
-}
 /* цвет h1 FFFFFF */
-/* цвет чепный h2 h3 212121 */
+/* цвет чеpный h2 h3 212121 */
 /* цвет р 757575 */
 /* цвет синий 2196F3 */
+:root{
+    --Белый-цвет:#FFFFFF;
+    --Черный-цвет: #212121;
+    --Синий-цвет: #2196F3;
+    --Ocновной-цвет-текста: #757575;
+}
+body{
+    background-color: #FFFFFF;
+    color: var(--Ocновной-цвет-текста);
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
 .black{
-    color: #212121;
+    color: var(--Черный-цвет);
+}
+.white{
+    color: var(--Черный-цвет);
 }
 
 .logo{
-    color:#2196F3;
+    color: var(--Синий-цвет);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    position: absolute;
+    padding-left: 215px;
+    padding-top: 24px;
+
     
 }
-.logo>.black:hover{
-    color: #2196F3;
+.logo .black:hover{
+    color: var(--Синий-цвет);
+    
 }
 ul{
     list-style: none;
 }
 .basic {
-    background-color: #FFFFFF;
+    background-color: var(--Белый-цвет);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     
 }
+.basic-linc{
+    display: flex;
+    flex-direction: row;
+    padding-left: 453px;
+    padding-top: 26px;  
+
+}
 .basic-linc .linc{
-    color: #212121;
+    color: var(--Черный-цвет);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    
+    
 }
 .basic-linc .linc:hover, 
 .basic-linc.linc:focus{
-     color: #2196F3;
+     color: var(--Синий-цвет);
+}
+
+/* мило и адресс */
+.basic-linck .linck{
+    color: var(--Черный-цвет);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-right: 215px;
+    font-size: 14px;
+ 
+    
+}
+.basic-linck .linck:hover, 
+.basic-linck.linck:focus{
+     color: var(--Синий-цвет);
+}
+
+/* Cекции h1 h2 */
+
+.section-title-h1{
+    color: black;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.section-title-h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--Черный-цвет);
+}
+.button {
+    background-color: var(--Синий-цвет);
+    color: var(--Белый-цвет);
+    display: inline-block;
+    border: 1px solid ;
+   
+    
+}
+.button:hover,
+.button:focus{
+    background-color: var(--Синий-цвет);
+    color: var(--Белый-цвет);
+    cursor: pointer;
+    opacity: .7;
+}
+.button-grey{
+    background-color: #F5F4FA;
+    color: var(--Черный-цвет);
+    cursor: pointer;
+}
+.button-grey:hover,
+.button-grey:focus{
+    background-color: var(--Синий-цвет);
+    color: var(--Белый-цвет);
+    cursor: pointer;
+
+}
+
+/* Cекции h3 */
+.main-information{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--Черный-цвет);
+}
+.information{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--Ocновной-цвет-текста);   
 }
