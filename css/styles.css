@@ -11,11 +11,13 @@
 body{
     background-color: #FFFFFF;
     color: var(--Ocновной-цвет-текста);
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
-
+    font-family: 'Roboto';
+    font-style: normal;
 }
-
+a{
+    text-decoration: none;
+}
+/* Лого спан цыета */
 .black{
     color: var(--Черный-цвет);
 }
@@ -29,14 +31,12 @@ body{
     font-size: 26px;
     position: absolute;
     padding-left: 215px;
-    padding-top: 24px;
-
-    
+    padding-top: 24px;   
 }
 .logo .black:hover{
-    color: var(--Синий-цвет);
-    
+    color: var(--Синий-цвет);   
 }
+
 ul{
     list-style: none;
 }
@@ -86,8 +86,6 @@ ul{
 
 .section-title-h1{
     color: black;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -96,8 +94,6 @@ ul{
     text-transform: uppercase;
 }
 .section-title-h2{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -135,8 +131,7 @@ ul{
 
 /* Cекции h3 */
 .main-information{
-    font-family: 'Roboto';
-    font-style: normal;
+ 
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -145,11 +140,40 @@ ul{
     color: var(--Черный-цвет);
 }
 .information{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--Ocновной-цвет-текста);   
+}
+/* Команда */
+.section-team-h3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--Черный-цвет);
+}
+.section-team-p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--Ocновной-цвет-текста);  
+}
+/* Проект */
+.project-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--Черный-цвет);
+
+}
+.project a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    /* identical to box height, or 188% */
+    letter-spacing: 0.03em;
+    color: var(--Ocновной-цвет-текста);
 }
