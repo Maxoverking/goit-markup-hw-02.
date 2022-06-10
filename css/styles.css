@@ -7,12 +7,14 @@
     --Черный-цвет: #212121;
     --Синий-цвет: #2196F3;
     --Ocновной-цвет-текста: #757575;
+    --секция-заказать-услугу:#2F303A;
 }
 body{
     background-color: #FFFFFF;
     color: var(--Ocновной-цвет-текста);
     font-family: 'Roboto';
     font-style: normal;
+    
 }
 a{
     text-decoration: none;
@@ -22,7 +24,7 @@ a{
     color: var(--Черный-цвет);
 }
 .white{
-    color: var(--Черный-цвет);
+    color: var(--Белый-цвет);
 }
 
 .logo{
@@ -34,7 +36,12 @@ a{
     padding-top: 24px;   
 }
 .logo .black:hover{
-    color: var(--Синий-цвет);   
+    color: var(--Синий-цвет); 
+  
+}
+
+.logo .white:hover{
+    color: var(--Синий-цвет);
 }
 
 ul{
