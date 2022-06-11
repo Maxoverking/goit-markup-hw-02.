@@ -53,8 +53,6 @@ ul{
     
 }
 .basic-linc{
- 
-
 }
 .basic-linc .linc{
     color: var(--Черный-цвет);
@@ -88,10 +86,10 @@ ul{
 }
 
 /* Cекции h1 h2 */
-.section-color-h1{
+.section-color-black{
     background: #2F303A;
+    
 }
-
 .section-title-h1{
     color: var(--Белый-цвет);
     font-weight: 900;
