@@ -49,11 +49,9 @@ ul{
 }
 .basic {
     background-color: var(--Белый-цвет);
-  
     
 }
-.basic-linc{
-}
+
 .basic-linc .linc{
     color: var(--Черный-цвет);
     font-weight: 500;
