@@ -3,15 +3,15 @@
 /* цвет р 757575 */
 /* цвет синий 2196F3 */
 :root{
-    --Белый-цвет:#FFFFFF;
-    --Черный-цвет: #212121;
-    --Синий-цвет: #2196F3;
-    --Ocновной-цвет-текста: #757575;
-    --секция-заказать-услугу:#2F303A;
+    --white-color:#FFFFFF;
+    --black-color: #212121;
+    --blue-color: #2196F3;
+    --basic-text-color: #757575;
+    --section-order-service:#2F303A;
 }
 body{
-    background-color: #FFFFFF;
-    color: var(--Ocновной-цвет-текста);
+    background-color: var(--white-color);
+    color: var(--basic-text-color);
     font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -22,77 +22,79 @@ a{
 }
 /* Лого спан цвет */
 .black{
-    color: var(--Черный-цвет);
+    color: var(--black-color);
 }
 .white{
-    color: var(--Белый-цвет);
+    color: var(--white-color);
 }
 
 .logo{
-    color: var(--Синий-цвет);
+    color: var(--blue-color);
     font-family: 'Raleway';
     font-size: 26px;
    
      
 }
 .logo .black:hover{
-    color: var(--Синий-цвет); 
+    color: var(--blue-color); 
   
 }
 
 .logo .white:hover{
-    color: var(--Синий-цвет);
+    color: var(--blue-color);
 }
 
 ul{
     list-style: none;
 }
 .basic {
-    background-color: var(--Белый-цвет);
+    background-color: var(--white-color);
     
 }
 
 .basic-linc .linc{
-    color: var(--Черный-цвет);
+    color: var(--black-color);
     font-weight: 500;
-    font-size: 14px; 
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 
 }
 .basic-linc .linc:hover, 
 .basic-linc.linc:focus{
-     color: var(--Синий-цвет);
+    color: var(--blue-color);
     
 }
 .basic-linc .linc.current{
-    color: var(--Синий-цвет);
+    color: var(--blue-color);
 }
 
 
 /* мило и адресс */
 .basic-linck .linck{
-    color: var(--Ocновной-цвет-текста);
-    font-family: 'Roboto', sans-serif;
+    color: var(--basic-text-color);
     font-weight: 500;
-    padding-right: 215px;
     font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
  
     
 }
 .basic-linck .linck:hover, 
 .basic-linck.linck:focus{
-     color: var(--Синий-цвет);
+    color: var(--blue-color);
 }
 
 /* Cекции h1 h2 */
 .section-color-black{
-    background: #2F303A;
+    background: var(--section-order-service);
     
 }
 .section-title-h1{
-    color: var(--Белый-цвет);
+    color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.5;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em; 
     text-transform: uppercase;
@@ -100,84 +102,90 @@ ul{
 .section-title-h2{
     font-weight: 700;
     font-size: 36px;
-    line-height: 2.625;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--Черный-цвет);
+    color: var(--black-color);
 }
 .button {
-    background-color: var(--Синий-цвет);
-    color: var(--Белый-цвет);
+    background-color: var(--blue-color);
+    color: var(--white-color);
     font-weight: 700;
+    line-height: 1.8;
     font-size: 16px;
-    line-height: 0.53; 
-
-      
+     
+ 
 }
 .button:hover,
 .button:focus{
-    background-color: var(--Синий-цвет);
-    color: var(--Белый-цвет);
+    background-color: var(--blue-color);
+    color: var(--white-color);
     cursor: pointer;
     opacity: .7;
+
+
 }
 .button-grey{
     background-color: #F5F4FA;
-    color: var(--Черный-цвет);
+    color: var(--black-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 .button-grey:hover,
 .button-grey:focus{
-    background-color: var(--Синий-цвет);
-    color: var(--Белый-цвет);
+    background-color: var(--blue-color);
+    color: var(--white-color);
     cursor: pointer;
 
 }
 
 /* Cекции h3 */
 .main-information{
- 
     font-weight: 700;
     font-size: 14px;
-    line-height: 1;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--Черный-цвет);
+    color: var(--black-color);
 }
 .information{
     font-size: 14px;
-    line-height: 1.5;
+    line-height: 1.7;
     letter-spacing: 0.03em;
-    color: var(--Ocновной-цвет-текста);   
+    color: var(--basic-text-color);
+    letter-spacing: 0.03em;
 }
 /* Команда */
 .section-team-h3{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    color: var(--Черный-цвет);
+    color: var(--black-color);
 }
 .section-team-p{
     font-size: 16px;
     line-height: 1.18;
-    color: var(--Ocновной-цвет-текста);  
+    color: var(--basic-text-color);  
 }
 /* Проект */
 .project-title{
     font-weight: 700;
     font-size: 18px;
-    line-height: 2.25;
+    line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--Черный-цвет);
+    color: var(--black-color);
 
 }
 .project a{
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    color: var(--Ocновной-цвет-текста);
+    color: var(--basic-text-color);
 }
 
 
@@ -186,8 +194,10 @@ ul{
 
 /* Футер */
 .footer-grey{
-    background-color: var(--секция-заказать-услугу);
+    background-color: var(--section-order-service);
 }
 .address{
-    color: var(--Белый-цвет);
+    color: var(--white-color);
+    font-style: normal;
+
 }
