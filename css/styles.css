@@ -15,6 +15,7 @@ body{
     font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 400;
+    margin: 0;
     
 }
 a{
@@ -50,6 +51,7 @@ ul{
 .basic {
     background-color: var(--white-color);
     
+    
 }
 
 .basic-linc .linc{
@@ -58,7 +60,10 @@ ul{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-
+    
+}
+.basic-linc li{
+    display: inline-flex;
 }
 .basic-linc .linc:hover, 
 .basic-linc.linc:focus{
@@ -71,13 +76,17 @@ ul{
 
 
 /* мило и адресс */
+.basic-linck{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .basic-linck .linck{
     color: var(--basic-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
- 
     
 }
 .basic-linck .linck:hover, 
@@ -126,6 +135,8 @@ ul{
 
 }
 .button-grey{
+    font-family: 'Roboto';
+    font-style: normal;
     background-color: #F5F4FA;
     color: var(--black-color);
     font-weight: 500;
@@ -136,6 +147,10 @@ ul{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
+.button-grey-block{
+    display: inline-flex;
+}
+    
 .button-grey:hover,
 .button-grey:focus{
     background-color: var(--blue-color);
@@ -143,7 +158,11 @@ ul{
     cursor: pointer;
 
 }
-
+/* Картинки */
+.section-picture{
+    display: flex;
+    justify-content: space-between;
+}
 /* Cекции h3 */
 .main-information{
     font-weight: 700;
@@ -161,11 +180,23 @@ ul{
     letter-spacing: 0.03em;
 }
 /* Команда */
+.section-team{
+    background: #F5F4FA;
+    margin: 0;
+}
+.section-people{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    border-bottom: 0;
+    margin-bottom: 0;
+}
 .section-team-h3{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     color: var(--black-color);
+
 }
 .section-team-p{
     font-size: 16px;
@@ -195,6 +226,7 @@ ul{
 /* Футер */
 .footer-grey{
     background-color: var(--section-order-service);
+    display: block;
 }
 .address{
     color: var(--white-color);
