@@ -9,15 +9,14 @@
     --basic-text-color: #757575;
     --section-order-service:#2F303A;
 }
+/* Боди CSS */
 body{
     background-color: var(--white-color);
     color: var(--basic-text-color);
     font-family: 'Roboto',sans-serif;
     font-style: normal;
-    font-weight: 400;
-    margin: 0;
-   
-    
+    font-weight: 400;  
+    margin: 0%;
 }
 a{
     text-decoration: none;
@@ -29,12 +28,20 @@ a{
 .white{
     color: var(--white-color);
 }
-
+.basic{
+    background-color: var(--white-color);
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    
+   
+    
+}
 .logo{
     color: var(--blue-color);
     font-family: 'Raleway';
     font-size: 26px;
-   
+    
      
 }
 .logo .black:hover{
@@ -49,9 +56,11 @@ a{
 ul{
     list-style: none;
 }
-.basic {
-    background-color: var(--white-color);
+.basic-linc,
+.basic-linck{
+    display: inline-flex;
     
+  
     
 }
 
@@ -62,10 +71,9 @@ ul{
     line-height: 1.14;
     letter-spacing: 0.02em;
     
+    
 }
-.basic-linc li{
-    display: inline-flex;
-}
+
 .basic-linc .linc:hover, 
 .basic-linc.linc:focus{
     color: var(--blue-color);
@@ -77,10 +85,6 @@ ul{
 
 
 /* мило и адресс */
-.basic-linck{
-    display: flex;
-    justify-content: flex-end;
-}
 
 .basic-linck .linck{
     color: var(--basic-text-color);
@@ -99,15 +103,21 @@ ul{
 .section-color-black{
     background: var(--section-order-service);
     
+    
+
 }
 .section-title-h1{
-    color: var(--white-color);
+    color : var(--white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em; 
     text-transform: uppercase;
+    
+    
+
+    
 }
 .section-title-h2{
     font-weight: 700;
@@ -123,8 +133,10 @@ ul{
     font-weight: 700;
     line-height: 1.8;
     font-size: 16px;
-     
- 
+    border:  #2196F3;
+    border-radius: 4px;
+    
+    
 }
 .button:hover,
 .button:focus{
@@ -133,7 +145,7 @@ ul{
     cursor: pointer;
     opacity: .7;
 
-
+/* Кнопки портфолио */
 }
 .button-grey{
     font-family: 'Roboto';
@@ -144,7 +156,6 @@ ul{
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: 0.03em;
-    cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
@@ -162,9 +173,14 @@ ul{
 /* Картинки */
 .section-picture{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+   
+    
 }
+
 /* Cекции h3 */
+
+
 .main-information{
     font-weight: 700;
     font-size: 14px;
@@ -172,6 +188,7 @@ ul{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--black-color);
+
 }
 .information{
     font-size: 14px;
@@ -179,11 +196,13 @@ ul{
     letter-spacing: 0.03em;
     color: var(--basic-text-color);
     letter-spacing: 0.03em;
+    display: inline-flex;
+    text-align: start;
 }
 /* Команда */
 .section-team{
     background: #F5F4FA;
-    margin: 0;
+  
 }
 .section-people{
     display: flex;
@@ -197,12 +216,14 @@ ul{
     font-size: 16px;
     line-height: 1.18;
     color: var(--black-color);
+    text-align: center;
 
 }
 .section-team-p{
     font-size: 16px;
     line-height: 1.18;
-    color: var(--basic-text-color);  
+    color: var(--basic-text-color);
+    text-align: center;
 }
 /* Проект */
 .project-title{
@@ -227,7 +248,8 @@ ul{
 /* Футер */
 .footer-grey{
     background-color: var(--section-order-service);
-    display: block;
+    
+    
 }
 .address{
     color: var(--white-color);
