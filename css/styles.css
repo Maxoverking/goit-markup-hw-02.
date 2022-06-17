@@ -10,13 +10,18 @@
     --section-order-service:#2F303A;
 }
 /* Боди CSS */
+.container-page{
+}
+
 body{
     background-color: var(--white-color);
     color: var(--basic-text-color);
     font-family: 'Roboto',sans-serif;
     font-style: normal;
-    font-weight: 400;  
-    margin: 0%;
+    font-weight: 400;
+    
+    
+    
 }
 a{
     text-decoration: none;
@@ -30,11 +35,6 @@ a{
 }
 .basic{
     background-color: var(--white-color);
-    padding: 0px;
-    display: flex;
-    justify-content: space-around;
-    
-   
     
 }
 .logo{
@@ -58,10 +58,7 @@ ul{
 }
 .basic-linc,
 .basic-linck{
-    display: inline-flex;
-    
   
-    
 }
 
 .basic-linc .linc{
@@ -102,6 +99,7 @@ ul{
 /* Cекции h1 h2 */
 .section-color-black{
     background: var(--section-order-service);
+    outline: 2px solid red;
     
     
 
@@ -115,9 +113,10 @@ ul{
     letter-spacing: 0.06em; 
     text-transform: uppercase;
     
-    
+}
+.section-color-black{
+outline: 2px solid red;
 
-    
 }
 .section-title-h2{
     font-weight: 700;
@@ -135,6 +134,7 @@ ul{
     font-size: 16px;
     border:  #2196F3;
     border-radius: 4px;
+
     
     
 }
@@ -148,8 +148,7 @@ ul{
 /* Кнопки портфолио */
 }
 .button-grey{
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     background-color: #F5F4FA;
     color: var(--black-color);
     font-weight: 500;
@@ -160,7 +159,7 @@ ul{
     border-radius: 4px;
 }
 .button-grey-block{
-    display: inline-flex;
+    
 }
     
 .button-grey:hover,
@@ -172,9 +171,6 @@ ul{
 }
 /* Картинки */
 .section-picture{
-    display: flex;
-    justify-content: space-around;
-   
     
 }
 
@@ -188,6 +184,7 @@ ul{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--black-color);
+    
 
 }
 .information{
@@ -198,32 +195,30 @@ ul{
     letter-spacing: 0.03em;
     display: inline-flex;
     text-align: start;
+    outline: 2px solid red;
 }
 /* Команда */
 .section-team{
     background: #F5F4FA;
+    outline: 2px solid red;
   
 }
 .section-people{
-    display: flex;
-    justify-content: space-between;
-    padding-right: 30px;
-    border-bottom: 0;
-    margin-bottom: 0;
+
 }
 .section-team-h3{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     color: var(--black-color);
-    text-align: center;
+    
 
 }
 .section-team-p{
     font-size: 16px;
     line-height: 1.18;
     color: var(--basic-text-color);
-    text-align: center;
+    
 }
 /* Проект */
 .project-title{
